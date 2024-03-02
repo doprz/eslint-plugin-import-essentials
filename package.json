@@ -1,10 +1,10 @@
 {
     "name": "eslint-plugin-import-essentials",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "ESLint plugin to enforce import essentials",
     "main": "eslint-plugin-import-essentials.js",
     "scripts": {
-        "test": "node check-path-alias.test.js"
+        "test": "node check-path-alias.test.js && node restrict-import-depth.test.js"
     },
     "peerDependencies": {
         "eslint": ">=8.0.0"
