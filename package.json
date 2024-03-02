@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-import-essentials",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "ESLint plugin to enforce import essentials",
     "main": "eslint-plugin-import-essentials.js",
     "scripts": {

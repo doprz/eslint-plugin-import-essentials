@@ -4,6 +4,8 @@
 
 "use strict";
 
+const path = require("path");
+
 module.exports = {
     meta: {
         type: "problem",
@@ -30,7 +32,10 @@ module.exports = {
                 //     "@shared/*": ["src/shared/*"],
                 //     "@views/*": ["src/views/*"]
                 // }
-                const tsconfig = require("../tsconfig.json");
+                const tsconfig = require(path.resolve(
+                    process.cwd(),
+                    "tsconfig.json"
+                ));
                 const paths = tsconfig.compilerOptions.paths;
                 let pathList = [];
 
