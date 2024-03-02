@@ -1,0 +1,24 @@
+{
+    "name": "eslint-plugin-import-essentials",
+    "version": "0.1.0",
+    "description": "ESLint plugin to enforce import essentials",
+    "main": "eslint-plugin-import-essentials.js",
+    "scripts": {
+        "test": "node check-path-alias.test.js"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.0.0"
+    },
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin",
+        "import",
+        "essentials"
+    ],
+    "author": "doprz",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.57.0"
+    }
+}
